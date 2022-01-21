@@ -241,7 +241,7 @@ h2::before {
   padding: 5px 10px;
   position: absolute;
   top: -10px;
-  right: -25px;
+  right: -5px;
 }
 
 /* Resolving conflicts */
@@ -296,3 +296,27 @@ h4 {
 /* .related-author-link:link {
   display: block;
 } */
+.article-aside-box {
+  display: flex;
+  gap: 50px;
+}
+.article {
+  flex-basis: 500px;
+}
+.aside {
+  flex-basis: 250px;
+}
+.aside > .related {
+  margin-left: 10px;
+}
+.small-text {
+  font-size: 15px;
+}
+.small-text .related-author {
+  font-size: inherit;
+  margin-bottom: 0px;
+}
+footer {
+  background-color: #f7f7f7;
+  text-align: center;
+}
